@@ -1,13 +1,17 @@
 body{
     font-family:sans-serif;
 }
+
 header{
     display :grid;
 }
 
 header .containerHeader{
     display: grid;
-    background-color: #000000;
+    background-image: url('./img-1.png');
+    background-size: cover;
+    background-position: left;
+    /* background-color:#45ccb8; */
     /* background-color: #45ccb8; */
     color: white;
     grid-template-columns: 1fr 2fr 1fr;
@@ -23,8 +27,13 @@ header .containerHeader .dropdown{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
-header .containerHeader .dropdown button{
+header .containerHeader .dropdown .image1{
+    width: 5em;
+    height: 5em;
+}
+header .containerHeader .infoUser button{
     background-color: transparent;
     border: 1px solid white;
     padding: 0.4em;
@@ -34,17 +43,20 @@ header .containerHeader .dropdown button{
 header .containerHeader .website{
     font-family: 'Gugi', cursive;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0.4em;
 }
+
 header .containerHeader .infoUser{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0.4em;
-    font-size: 0.9em;
+    font-size: 1.2em;
 }
+
 header .containerHeader .infoUser p a{
     text-decoration: none;
     color: white;
@@ -54,17 +66,36 @@ header .containerHeader .infoUser p a{
     margin: 0;
 } */
 .btn{
-    transform: scale(0.8);
+    transform: scale(1);
 }
+
 .btn:hover{
     background-color: #45ccb8;
     color:#ffffff;
 }
-.fa-search{
+
+/* .fa-search{
     padding: 0.4em;
 }
-.btn:hover .fa-search{
- transform: scale(1.8);
- transition: all 1s;
+
+.fa-shopping-cart{
+    padding: 0.4em;
+} */
+
+.btn:hover .fas{
+    transform: scale(1.8);
+    transition: all 1s;
 }
 
+/* .containerFluid .navbar{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2em;
+} */
+.navbar-nav{
+    padding: 0.4em;
+}
+
+.navbar .nav-link{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2em;
+}
