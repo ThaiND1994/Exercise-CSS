@@ -9,10 +9,11 @@
     <!-- Fontawesome CDN -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css">
+    <!-- Slick-Slider -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-    <!-- Slick-Slider -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <!-- important fonts for google fonts  -->
     <link href="https://fonts.googleapis.com/css?family=Anton|Gugi|Lato|Roboto&display=swap" rel="stylesheet">
 
@@ -23,10 +24,10 @@
         <header>
             <div class="containerHeader">
                     <div class="dropdown">
-                          <img src="./logo3.png" alt="" class="image1">
+                          <div><img src="./logo3.png" alt="" class="image1"></div>
                     </div>
                 <div class="website">
-                <h2>Adidas Originals</h2>
+                <h2>Originals Store</h2>
                 </div>
                 <div class="infoUser">
                     <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -63,9 +64,11 @@
                        Brands
                       </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Originals</a>
-                        <a class="dropdown-item" href="#">Athletics</a>
+                        <a class="dropdown-item" href="#">Adidas Originals</a>
+                        <a class="dropdown-item" href="#">Nike</a>
                         <a class="dropdown-item" href="#">SkateBoarding</a>
+                        <a class="dropdown-item" href="#">Running</a>
+                        <a class="dropdown-item" href="#">Life Style</a>
                         <!-- <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Something else here</a>-->
                       </div> 
@@ -93,10 +96,10 @@
                       <a class="nav-link" href="#">Help</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Sign In</a>
+                      <a class="nav-link" href="#">Log In</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Creat Account</a>
+                      <a class="nav-link" href="#">Sign Up</a>
                     </li>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
@@ -115,7 +118,27 @@
             <!-- First Slider -->
           <div class="container-fluidMain">
             <div class="site-slider">
-             
+                <div class="sliderone">
+                    <div>
+                      <img src="./img-2.jpg" class="img-fluid" alt="Banner 1">
+                    </div>
+                    <div>
+                        <img src="./img-3.jpg" class="img-fluid" alt="Banner 2">
+                    </div>
+                    <div>
+                          <img src="./img-4.jpg" class="img-fluid" alt="Banner 3">
+                    </div>
+                    <div>
+                        <img src="./img-5.jpg" class="img-fluid" alt="Banner 4">
+                  </div>
+                  <div>
+                      <img src="./img-6.jpg" class="img-fluid" alt="Banner 5">
+                </div>
+                  </div> 
+                  <div class="slider-btn">
+                    <span class="prev position-top"><i class="fas fa-chevron-left"></i></span>
+                    <span class="next position-top right-0"><i class="fas fa-chevron-right"></i></span>
+                  </div>
             </div>
           </div>
             <!-- /First Slider -->
@@ -131,11 +154,14 @@
                     infoWebsite 
             </div>   
         </footer>
+
         <!-- /footer -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-        <script src="main.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+         <script src="./main.js"></script>
 </body>
 </html>
